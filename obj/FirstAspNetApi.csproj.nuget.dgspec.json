@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/tamicktom/projetos/first-asp-net-api/FirstAspNetApi.csproj": {}
+    "/app/FirstAspNetApi.csproj": {}
   },
   "projects": {
-    "/home/tamicktom/projetos/first-asp-net-api/FirstAspNetApi.csproj": {
+    "/app/FirstAspNetApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/tamicktom/projetos/first-asp-net-api/FirstAspNetApi.csproj",
+        "projectUniqueName": "/app/FirstAspNetApi.csproj",
         "projectName": "FirstAspNetApi",
-        "projectPath": "/home/tamicktom/projetos/first-asp-net-api/FirstAspNetApi.csproj",
-        "packagesPath": "/home/tamicktom/.nuget/packages/",
-        "outputPath": "/home/tamicktom/projetos/first-asp-net-api/obj/",
+        "projectPath": "/app/FirstAspNetApi.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/app/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/tamicktom/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/tamicktom/.dotnet/sdk/8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

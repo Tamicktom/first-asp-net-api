@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  dotnet:
+    image: mcr.microsoft.com/dotnet/sdk:8.0
+    # mount the current directory to /app
+    volumes:
+      - .:/app
+    # set the working directory
+    working_dir: /app
+    # run the dotnet command
+    command: dotnet run
+    # expose the port
+    ports:
+      - "5212:5212"
