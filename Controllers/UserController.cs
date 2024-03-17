@@ -11,7 +11,7 @@ public class UserController : ControllerBase
   [Route("{id:int}")]
   [ProducesResponseType(StatusCodes.Status204NoContent, Type = typeof(Response))]
   [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(string))]
-  public IActionResult Get(int id, string name, int age)
+  public IActionResult Get([FromRoute] int id, [FromQuery] string name, [FromQuery] int age)
   {
     var response = new Response
     {
